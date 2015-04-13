@@ -37,8 +37,8 @@ class Display(object):
     self.camera = camera.Camera(self.width, self.height) 
 
     # For mouse motion
-    self._mouseX = 0
-    self._mouseY = 0
+    self._mouseX = None
+    self._mouseY = None
 
   # One-time GL commands
   def initGL(self):
