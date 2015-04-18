@@ -28,17 +28,17 @@ class Example(display.Display):
 
     # Change orientation
     if(key == "i"):
-      p -= dPos
+      p -= dRot
     if(key == "j"):
-      ya -= dPos
+      ya -= dRot
     if(key == "k"):
-      p += dPos
+      p += dRot
     if(key == "l"):
-      ya += dPos
+      ya += dRot
     if(key == "u"):
-      r -= dPos
+      r -= dRot
     if(key == "o"):
-      r += dPos
+      r += dRot
 
     # Reset position and orientation
     if(key == "r"):
